@@ -1,4 +1,4 @@
-Demonstration of Brian Games
+# Demonstration of Brian Games
 
 
 * npm link install:
