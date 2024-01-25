@@ -1,4 +1,4 @@
-import getRandomIt from '../utils.js'
+import getRandomIt from '../utils.js';
 import greeting from '../index.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -13,6 +13,5 @@ const evenGame = () => {
 const startEven = () => {
     greeting(evenGame, rule);
 };
-
 
 export default startEven;
