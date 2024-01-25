@@ -1,11 +1,16 @@
-Demonstration of Brian Games games
+Demonstration of Brian Games
 
 
-* npm link install: 
+* npm link install:
+
 [![asciicast](https://asciinema.org/a/hlkda6jNRvsah07Teb15sb3mo.svg)](https://asciinema.org/a/hlkda6jNRvsah07Teb15sb3mo)
 
 * Brain-even game, victory and defeat:
+
 [![asciicast](https://asciinema.org/a/8AYJMtcFxEj9VLEQSgc6cVzqY.svg)](https://asciinema.org/a/8AYJMtcFxEj9VLEQSgc6cVzqY)
+
+
+
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Lokstar-Ugar/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Lokstar-Ugar/frontend-project-44/actions)
