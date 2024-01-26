@@ -9,7 +9,9 @@
 
 [![asciicast](https://asciinema.org/a/8AYJMtcFxEj9VLEQSgc6cVzqY.svg)](https://asciinema.org/a/8AYJMtcFxEj9VLEQSgc6cVzqY)
 
+* Brain-calc game, victory and defeat:
 
+[![asciicast](https://asciinema.org/a/ndzk3x8NPv2HrJKtydlGsgnVm.svg)](https://asciinema.org/a/ndzk3x8NPv2HrJKtydlGsgnVm)
 
 
 ### Hexlet tests and linter status:
