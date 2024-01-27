@@ -26,4 +26,4 @@ const gcdStart = () => {
     greeting(gcdGame, rule);
 };
 
-export default gcdStart();
+export default gcdStart;
