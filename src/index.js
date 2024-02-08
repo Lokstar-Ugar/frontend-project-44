@@ -18,7 +18,7 @@ const greeting = (sumRound, rule) => {
     } if (userAnswer === correctAnswer) {
       console.log('Correct!');
     }
-  } return console.log(`Congrlatulations, ${userName}`);
+  } return console.log(`Congrlatulations, ${userName}!`);
 };
 
 export default greeting;
