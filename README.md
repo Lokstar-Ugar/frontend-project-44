@@ -21,6 +21,10 @@
 
 [![asciicast](https://asciinema.org/a/gnnzmfr1NBXOq2fnJkT4fV38R.svg)](https://asciinema.org/a/gnnzmfr1NBXOq2fnJkT4fV38R)
 
+* Brain-prime game, victory and defeat:
+
+[![asciicast](https://asciinema.org/a/cSpgJGs9bT1C5qZ6p3MWMhQcw.svg)](https://asciinema.org/a/cSpgJGs9bT1C5qZ6p3MWMhQcw)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Lokstar-Ugar/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Lokstar-Ugar/frontend-project-44/actions)
 <a href="https://codeclimate.com/github/Lokstar-Ugar/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6911bd9091d782e90f6/maintainability" /></a>
