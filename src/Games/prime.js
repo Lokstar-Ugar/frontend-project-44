@@ -1,4 +1,4 @@
-import getRandomIt from '../utils.js';
+import getRandomInRange from '../utils.js';
 import greeting from '../index.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -16,7 +16,7 @@ const isPrime = (n) => {
 };
 
 const primeGame = () => {
-  const randomNum = getRandomIt(0, 50);
+  const randomNum = getRandomInRange(0, 50);
   const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
   return [randomNum, correctAnswer];
 };

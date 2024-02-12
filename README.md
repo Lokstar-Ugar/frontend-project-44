@@ -1,3 +1,18 @@
+# Welcome to the Brain Games!
+
+### System requirements and Installation guide:
+
+* The game can only be run on a Unix-like operating system.
+for example: Ubuntu 20.04.1 or higher
+* Node.js v13 or higher
+
+To install "Brain-games", you need:
+
+* git clone https://github.com/seenerve/frontend-project-44
+* cd frontend-project-44
+* make install
+* Choose your game.
+
 # Demonstration of Brian Games
 
 

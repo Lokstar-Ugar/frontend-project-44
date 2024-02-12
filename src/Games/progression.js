@@ -1,12 +1,12 @@
-import getRandomIt from '../utils.js';
+import getRandomInRange from '../utils.js';
 import greeting from '../index.js';
 
 const rule = 'What number is missing in the progression?';
 
 const arithmeticProgression = (step) => {
   const result = [];
-  let current = getRandomIt(5, 5);
-  for (let i = 0; i < getRandomIt(5, 10); i += 1) {
+  let current = getRandomInRange(5, 5);
+  for (let i = 0; i < getRandomInRange(5, 10); i += 1) {
     result.push(current);
     current += step;
   }
@@ -14,9 +14,9 @@ const arithmeticProgression = (step) => {
 };
 
 const progressionGame = () => {
-  const step = getRandomIt(1, 5);
+  const step = getRandomInRange(1, 5);
   const progression = arithmeticProgression(step);
-  const randomIndex = getRandomIt(0, progression.length - 1);
+  const randomIndex = getRandomInRange(0, progression.length - 1);
   const correctAnswer = progression[randomIndex].toString();
   const hiddenIndex = '..';
   progression[randomIndex] = hiddenIndex;
