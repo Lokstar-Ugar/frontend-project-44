@@ -15,7 +15,7 @@ const rule = 'What number is missing in the progression?';
 
 const arithmeticProgression = (start = 1, step = 5, progressionLength = 2) => {
   const members = [];
-  for (let i = 0; i < progressionLength; i++) {
+  for (let i = 0; i < progressionLength; i += 1) {
     members.push(start + step * i);
   }
   return members;
