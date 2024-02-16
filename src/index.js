@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
 // import getRandomIt from './utils.js';
 
+const roundCount = 3;
+
 const greeting = (sumRound, rule) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(rule);
-
-  const roundCount = 3;
 
   for (let i = 1; i <= roundCount; i += 1) {
     const [question, correctAnswer] = sumRound();

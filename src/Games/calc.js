@@ -14,7 +14,7 @@ const calculate = (num1, num2, operation) => {
     case '+':
       return num1 + num2;
     default:
-      return 'Invalid operation';
+      throw new Error(`Invalid operator - ${operation}`);
   }
 };
 
@@ -22,7 +22,7 @@ const calcGame = () => {
   const num1 = getRandomInRange(1, 10);
   const num2 = getRandomInRange(1, 10);
   const operations = ['*', '-', '+'];
-  const randomIndex = Math.floor(Math.random() * operations.length);
+  const randomIndex = Math.floor(getRandomInRange(0, 2));
   const operation = operations[randomIndex];
   const question = `${num1} ${operation} ${num2}`;
   const correctAnswer = calculate(num1, num2, operation).toString();
